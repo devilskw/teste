@@ -1,0 +1,13 @@
+server:
+  application:
+    name: products
+  port: 8080
+springdoc:
+  swagger-ui:
+    path: /v1/swagger-ui.html
+    operationsSorter: method
+  api-docs:
+    path: /v1/api-docs
+  use-fqn: true
+  packagesToScan:
+    - br.com.kazuo.app.entrypoint
